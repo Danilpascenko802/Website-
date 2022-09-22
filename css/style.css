@@ -1,16 +1,19 @@
 @import "/css/homepage.css";
-/*html {
+html {
   height: 100%;
   width: 100%;
-}*/
+}
 .body {
-  height: 100%;
+  height: 97%;
   width: 99%;
   background-color: rgb(163, 226, 255);
 
   display: flex;
   flex-direction: column;
 }
+
+/* HEADER*/
+
 .header {
   height: 50px;
   width: 100%;
@@ -44,6 +47,9 @@
 .navigation_pages:hover {
   color: aliceblue;
 }
+
+/*CABINET */
+
 #main_box {
   display: flex;
   flex-direction: column;
@@ -100,7 +106,15 @@
   background-color: rgb(255, 255, 126);
   border-color: rgb(255, 255, 126);
 }
-#home_text_area{
-  height: 300px;
-  width: 45%;
+
+/* HOME PAGE */
+.home_page {
+}
+#home_text_area {
+  min-width: 100px;
+  min-height: 80px;
+  height: 10%;
+  width: 25%;
+}
+.home_submit_btn {
 }
