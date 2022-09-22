@@ -41,7 +41,7 @@ html {
   position: relative;
 }
 .nav_pages_link:hover {
-  color: aqua;
+  color: rgb(70, 122, 122);
   text-decoration: underline;
 }
 .navigation_pages:hover {
@@ -109,6 +109,21 @@ html {
 
 /* HOME PAGE */
 .home_page {
+}
+.userType_list {
+}
+.home_user_item {
+  list-style-type: none;
+}
+.home_wichuser_link {
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block;
+  position: relative;
+}
+.home_wichuser_link:hover {
+  color: rgb(70, 122, 122);
+  text-decoration: underline;
 }
 #home_text_area {
   min-width: 100px;
