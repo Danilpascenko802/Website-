@@ -1,3 +1,4 @@
+@import "/css/homepage.css";
 /*html {
   height: 100%;
   width: 100%;
@@ -5,7 +6,7 @@
 .body {
   height: 100%;
   width: 99%;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(163, 226, 255);
 
   display: flex;
   flex-direction: column;
@@ -28,7 +29,7 @@
   color: rgb(255, 255, 255);
 }
 .navigation_pages {
-  margin-left: 10%;
+  margin-left: 5%;
 }
 .nav_pages_link {
   text-decoration: none;
@@ -62,7 +63,7 @@
   margin-top: 35px;
   font-weight: 800;
   font-size: 23px;
-  color: rgb(255, 193, 23);
+  color: rgb(45, 45, 45);
 }
 #registration_box {
   display: flex;
@@ -98,4 +99,8 @@
 #submit_bttn:active {
   background-color: rgb(255, 255, 126);
   border-color: rgb(255, 255, 126);
+}
+#home_text_area{
+  height: 300px;
+  width: 45%;
 }
