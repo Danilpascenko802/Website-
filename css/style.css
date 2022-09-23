@@ -47,6 +47,42 @@ html {
 .navigation_pages:hover {
   color: aliceblue;
 }
+/* HOME PAGE */
+#home_body {
+  display: block;
+}
+.home_page {
+  margin-top: 5%;
+}
+.userType_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home_user_item {
+  list-style-type: none;
+}
+.home_wichuser_link {
+  text-decoration: none;
+  color: aliceblue;
+  display: inline-block;
+  position: relative;
+}
+.home_wichuser_link:hover {
+  color: rgb(70, 122, 122);
+  text-decoration: underline;
+}
+#home_text_area {
+  min-width: 100px;
+  min-height: 80px;
+  height: 20%;
+  width: 35%;
+  margin-left: 33%;
+}
+.home_submit_btn {
+  display: block;
+  margin-left: 48%;
+}
 
 /*CABINET */
 
@@ -55,6 +91,7 @@ html {
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
+  justify-content: center;
   /* display: flex;
   align-items: center;
   justify-content:-around;
@@ -62,6 +99,26 @@ html {
 
   height: 100%;
   width: 100%;
+}
+.registration_type_list {
+  width: 40%;
+  font-size: 19px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.registration_type_item {
+  display: contents;
+  list-style-type: none;
+}
+.registration_type_item_link {
+  text-decoration: none;
+  color: aliceblue;
+  /*margin-left: 10%;*/
+}
+.registration_type_item_link:hover {
+  color: rgb(70, 122, 122);
+  text-decoration: underline;
 }
 #registration_title {
   display: flex;
@@ -105,41 +162,4 @@ html {
 #submit_bttn:active {
   background-color: rgb(255, 255, 126);
   border-color: rgb(255, 255, 126);
-}
-
-/* HOME PAGE */
-#home_body {
-  display: block;
-}
-.home_page {
-  margin-top: 5%;
-}
-.userType_list {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.home_user_item {
-  list-style-type: none;
-}
-.home_wichuser_link {
-  text-decoration: none;
-  color: aliceblue;
-  display: inline-block;
-  position: relative;
-}
-.home_wichuser_link:hover {
-  color: rgb(70, 122, 122);
-  text-decoration: underline;
-}
-#home_text_area {
-  min-width: 100px;
-  min-height: 80px;
-  height: 20%;
-  width: 35%;
-  margin-left: 33%;
-}
-.home_submit_btn {
-  display: block;
-  margin-left: 48%;
 }
