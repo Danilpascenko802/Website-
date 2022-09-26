@@ -1,50 +1,62 @@
 html {
   height: 100%;
-  width: 100%;
+  /*width: 100%;*/
 }
 .body {
   height: 97%;
-  width: 99%;
-  background-color: rgb(163, 226, 255);
+  /*width: 99%;*/
+  background-color: #f5f5f5;
 
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 /* HEADER*/
-
 .header {
-  height: 50px;
-  width: 100%;
+  background-color: #d9d9d9;
+  /*height: 50px;*/
+  /*width: 100%;*/
+  /*padding-bottom: 50px;*/
+  padding-top: 10px;
 }
-.navigation_list {
-  width: 97.5%;
-  list-style-type: none;
+.navigation_box {
   display: flex;
-  margin-right: 50px;
-  margin-top: 20px;
-  font-weight: 600;
-  font-size: 18px;
-  color: rgb(255, 255, 255);
-  border-bottom: 2px solid rgb(255, 255, 0);
+  justify-content: space-between;
+  align-items: center;
 }
-.navigation_pages {
-  margin-left: 5%;
+.entrance_btn {
+  width: 130px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+  margin-right: 20%;
 }
-#header_logo {
-  display: block;
+.entrance_btn:active {
+  background-color: rgb(144, 144, 144);
 }
+
 .header_logo_img {
   position: relative;
   top: -15px;
   width: auto;
   height: 50px;
 }
+.navigation_list {
+  width: 45%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation_pages {
+  margin-left: 5%;
+}
 .nav_pages_link {
   text-decoration: none;
-  color: rgb(255, 255, 255);
   display: inline-block;
   position: relative;
+  color: rgb(0, 0, 0);
 }
 .nav_pages_link:hover {
   color: rgb(70, 122, 122);
@@ -53,12 +65,41 @@ html {
 .navigation_pages:hover {
   color: aliceblue;
 }
+.search_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.header_search_bar {
+  width: 400px;
+  height: 30px;
+  border-radius: 15px;
+  border: none;
+}
+.search_btn {
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: #f5f5f5;
+  background-image: url(../img/Без\ названия.png);
+  background-size: 23px;
+  background-repeat: no-repeat;
+  background-position: 3px 3px;
+}
+.search_btn:active {
+  box-shadow: 9px 6px 6px -1px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 9px 6px 6px -1px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 9px 6px 6px -1px rgba(0, 0, 0, 0.36);
+}
 /* HOME PAGE */
 .mainpage_text {
   margin-top: 10%;
+  margin-left: 170px;
 }
 #home_body {
-  display: block;
 }
 .home_page {
   margin-top: 5%;
@@ -84,15 +125,27 @@ html {
 #home_text_area {
   min-width: 100px;
   min-height: 80px;
-  height: 20%;
-  width: 35%;
+  height: 158px;
+  width: 360px;
   margin-left: 33%;
 }
 .home_submit_btn {
   display: block;
   margin-left: 48%;
 }
-
+/* HOME */
+.home_page_text {
+  padding-left: 50px;
+  width: 50%;
+}
+/*SOMETHING*/
+.smth_text {
+  margin-top: 50px;
+}
+/*About us */
+.abtus_text {
+  margin-top: 50px;
+}
 /*CABINET */
 
 #main_box {
@@ -135,7 +188,6 @@ html {
   margin-top: 35px;
   font-weight: 800;
   font-size: 23px;
-  color: rgb(45, 45, 45);
 }
 #registration_box {
   display: flex;
@@ -163,7 +215,6 @@ html {
 }
 #submit_bttn {
   width: 105px;
-  color: rgb(0, 0, 0);
   background-color: rgb(255, 255, 255);
   font-weight: 800;
   margin: 20px;
